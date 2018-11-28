@@ -1,0 +1,710 @@
+<?xml version='1.0' encoding='utf-8'?>
+<materials>
+
+<material id="20000" name="air (MCNP)">
+	<density units="atom/b-cm" value="5.0820E-05" />
+	<nuclide ao=" 5.0303E-07" name="H1" />
+	<nuclide ao=" 5.7856E-11" name="H2" />
+	<nuclide ao=" 3.9125E-05" name="N14" />
+	<nuclide ao=" 1.4294E-07" name="N15" />
+	<nuclide ao=" 1.0800E-05" name="O16" />
+	<nuclide ao=" 4.1056E-09" name="O17" />
+	<nuclide ao=" 7.9027E-10" name="Ar36" />
+	<nuclide ao=" 1.4843E-10" name="Ar38" />
+	<nuclide ao=" 2.3391E-07" name="Ar40" />
+	<nuclide ao=" 9.5977E-09" name="C0" />
+	<nuclide ao=" 1.7656E-16" name="He3" />
+	<nuclide ao=" 1.3176E-10" name="He4" />
+	<nuclide ao=" 1.0176E-13" name="Kr78" />
+	<nuclide ao=" 6.5528E-13" name="Kr80" />
+	<nuclide ao=" 3.3231E-12" name="Kr82" />
+	<nuclide ao=" 3.2965E-12" name="Kr83" />
+	<nuclide ao=" 1.6335E-11" name="Kr84" />
+	<nuclide ao=" 4.9530E-12" name="Kr86" />
+	<sab name="c_H_in_H2O" />
+	<sab name="c_D_in_D2O" />
+</material>
+
+<material id="10002" name="b4c_rod_old">
+	<density units="g/cc" value="1.6" />
+	<nuclide ao="0.0174407748103" name="C0" />
+	<nuclide ao="0.0138770634432" name="B10" />
+	<nuclide ao="0.0558569237084" name="B11" />
+</material>
+
+<material id="10003" name="b4c_rod_new">
+	<density units="g/cc" value="1.8"/>
+	<nuclide ao="0.0196208716615" name="C0"/>
+	<nuclide ao="0.0156116963736" name="B10"/>
+	<nuclide ao="0.062839039172" name="B11"/>
+</material>
+
+<material id="20005" name="Zr3 (MCNP)">
+	<density units="atom/b-cm" value="4.3469E-02" />
+	<nuclide ao=" 8.5822E-05" name="H1" />
+	<nuclide ao=" 9.8707E-09" name="H2" />
+	<nuclide ao=" 2.1501E-08" name="Li6" />
+	<nuclide ao=" 2.6177E-07" name="Li7" />
+	<nuclide ao=" 2.1817E-07" name="Be9" />
+	<nuclide ao=" 3.6192E-08" name="B10" />
+	<nuclide ao=" 1.4568E-07" name="B11" />
+	<nuclide ao=" 3.9289E-05" name="C0" />
+	<nuclide ao=" 1.4266E-05" name="N14" />
+	<nuclide ao=" 5.2119E-08" name="N15" />
+	<nuclide ao=" 2.2604E-04" name="O16" />
+	<nuclide ao=" 8.5927E-08" name="O17" />
+	<nuclide ao=" 8.5526E-07" name="Na23" />
+	<nuclide ao=" 6.3901E-08" name="Mg24" />
+	<nuclide ao=" 8.0898E-09" name="Mg25" />
+	<nuclide ao=" 8.9068E-09" name="Mg26" />
+	<nuclide ao=" 7.2873E-07" name="Al27" />
+	<nuclide ao=" 6.4564E-07" name="Si28" />
+	<nuclide ao=" 3.2799E-08" name="Si29" />
+	<nuclide ao=" 2.1647E-08" name="Si30" />
+	<nuclide ao=" 6.3480E-07" name="P31" />
+	<nuclide ao=" 4.6899E-07" name="K39" />
+	<nuclide ao=" 5.8838E-11" name="K40" />
+	<nuclide ao=" 3.3846E-08" name="K41" />
+	<nuclide ao=" 4.7559E-07" name="Ca40" />
+	<nuclide ao=" 3.1742E-09" name="Ca42" />
+	<nuclide ao=" 6.6231E-10" name="Ca43" />
+	<nuclide ao=" 1.0234E-08" name="Ca44" />
+	<nuclide ao=" 1.9624E-11" name="Ca46" />
+	<nuclide ao=" 9.1742E-10" name="Ca48" />
+	<nuclide ao=" 4.3737E-06" name="Sc45" />
+	<nuclide ao=" 5.4221E-08" name="Ti46" />
+	<nuclide ao=" 4.8898E-08" name="Ti47" />
+	<nuclide ao=" 4.8451E-07" name="Ti48" />
+	<nuclide ao=" 3.5556E-08" name="Ti49" />
+	<nuclide ao=" 3.4044E-08" name="Ti50" />
+	<nuclide ao=" 9.6494E-11" name="V50" />
+	<nuclide ao=" 3.8501E-08" name="V51" />
+	<nuclide ao=" 1.6430E-09" name="Cr50" />
+	<nuclide ao=" 3.1685E-08" name="Cr52" />
+	<nuclide ao=" 3.5928E-09" name="Cr53" />
+	<nuclide ao=" 8.9432E-10" name="Cr54" />
+	<nuclide ao=" 7.1579E-08" name="Mn55" />
+	<nuclide ao=" 1.0701E-05" name="Fe54" />
+	<nuclide ao=" 1.6799E-04" name="Fe56" />
+	<nuclide ao=" 3.8795E-06" name="Fe57" />
+	<nuclide ao=" 5.1630E-07" name="Fe58" />
+	<nuclide ao=" 3.3363E-08" name="Co59" />
+	<nuclide ao=" 2.2806E-08" name="Ni58" />
+	<nuclide ao=" 8.7847E-09" name="Ni60" />
+	<nuclide ao=" 3.8186E-10" name="Ni61" />
+	<nuclide ao=" 1.2175E-09" name="Ni62" />
+	<nuclide ao=" 3.1007E-10" name="Ni64" />
+	<nuclide ao=" 2.1396E-08" name="Cu63" />
+	<nuclide ao=" 9.5455E-09" name="Cu65" />
+	<nuclide ao=" 1.4510E-08" name="Zn64" />
+	<nuclide ao=" 8.4094E-09" name="Zn66" />
+	<nuclide ao=" 1.2331E-09" name="Zn67" />
+	<nuclide ao=" 5.7187E-09" name="Zn68" />
+	<nuclide ao=" 1.8968E-10" name="Zn70" />
+	<nuclide ao=" 1.6951E-08" name="Ga69" />
+	<nuclide ao=" 1.1250E-08" name="Ga71" />
+	<nuclide ao=" 5.5164E-09" name="Ge70" />
+	<nuclide ao=" 7.3923E-09" name="Ge72" />
+	<nuclide ao=" 2.1005E-09" name="Ge73" />
+	<nuclide ao=" 9.9394E-09" name="Ge74" />
+	<nuclide ao=" 2.1194E-09" name="Ge76" />
+	<nuclide ao=" 2.6244E-08" name="As75" />
+	<nuclide ao=" 2.2162E-10" name="Se74" />
+	<nuclide ao=" 2.3333E-09" name="Se76" />
+	<nuclide ao=" 1.9000E-09" name="Se77" />
+	<nuclide ao=" 5.9191E-09" name="Se78" />
+	<nuclide ao=" 1.2354E-08" name="Se80" />
+	<nuclide ao=" 2.1739E-09" name="Se82" />
+	<nuclide ao=" 1.6603E-08" name="Rb85" />
+	<nuclide ao=" 6.4024E-09" name="Rb87" />
+	<nuclide ao=" 1.2567E-10" name="Sr84" />
+	<nuclide ao=" 2.2126E-09" name="Sr86" />
+	<nuclide ao=" 1.5708E-09" name="Sr87" />
+	<nuclide ao=" 1.8531E-08" name="Sr88" />
+	<nuclide ao=" 4.4231E-07" name="Y89" />
+	<nuclide ao=" 4.2327E-07" name="Nb93" />
+	<nuclide ao=" 3.0270E-09" name="Mo92" />
+	<nuclide ao=" 1.8916E-09" name="Mo94" />
+	<nuclide ao=" 3.2586E-09" name="Mo95" />
+	<nuclide ao=" 3.4184E-09" name="Mo96" />
+	<nuclide ao=" 1.9592E-09" name="Mo97" />
+	<nuclide ao=" 4.9576E-09" name="Mo98" />
+	<nuclide ao=" 1.9818E-09" name="Mo100" />
+	<nuclide ao=" 1.0778E-09" name="Ru96" />
+	<nuclide ao=" 3.6379E-10" name="Ru98" />
+	<nuclide ao=" 2.4823E-09" name="Ru99" />
+	<nuclide ao=" 2.4512E-09" name="Ru100" />
+	<nuclide ao=" 3.3189E-09" name="Ru101" />
+	<nuclide ao=" 6.1377E-09" name="Ru102" />
+	<nuclide ao=" 3.6223E-09" name="Ru104" />
+	<nuclide ao=" 1.9107E-08" name="Rh103" />
+	<nuclide ao=" 1.8846E-10" name="Pd102" />
+	<nuclide ao=" 2.0582E-09" name="Pd104" />
+	<nuclide ao=" 4.1257E-09" name="Pd105" />
+	<nuclide ao=" 5.0495E-09" name="Pd106" />
+	<nuclide ao=" 4.8887E-09" name="Pd108" />
+	<nuclide ao=" 2.1654E-09" name="Pd110" />
+	<nuclide ao=" 2.8348E-06" name="Ag107" />
+	<nuclide ao=" 2.6336E-06" name="Ag109" />
+	<nuclide ao=" 2.1864E-10" name="Cd106" />
+	<nuclide ao=" 1.5567E-10" name="Cd108" />
+	<nuclide ao=" 2.1847E-09" name="Cd110" />
+	<nuclide ao=" 2.2389E-09" name="Cd111" />
+	<nuclide ao=" 4.2207E-09" name="Cd112" />
+	<nuclide ao=" 2.1374E-09" name="Cd113" />
+	<nuclide ao=" 5.0253E-09" name="Cd114" />
+	<nuclide ao=" 1.3101E-09" name="Cd116" />
+	<nuclide ao=" 1.0285E-08" name="In113" />
+	<nuclide ao=" 2.2946E-07" name="In115" />
+	<nuclide ao=" 9.6398E-07" name="Sn112" />
+	<nuclide ao=" 6.5590E-07" name="Sn114" />
+	<nuclide ao=" 3.3789E-07" name="Sn115" />
+	<nuclide ao=" 1.4450E-05" name="Sn116" />
+	<nuclide ao=" 7.6323E-06" name="Sn117" />
+	<nuclide ao=" 2.4070E-05" name="Sn118" />
+	<nuclide ao=" 8.5367E-06" name="Sn119" />
+	<nuclide ao=" 3.2378E-05" name="Sn120" />
+	<nuclide ao=" 4.6013E-06" name="Sn122" />
+	<nuclide ao=" 5.7541E-06" name="Sn124" />
+	<nuclide ao=" 9.2384E-09" name="Sb121" />
+	<nuclide ao=" 6.9099E-09" name="Sb123" />
+	<nuclide ao=" 1.3868E-11" name="Te120" />
+	<nuclide ao=" 3.9293E-10" name="Te122" />
+	<nuclide ao=" 1.3714E-10" name="Te123" />
+	<nuclide ao=" 7.3040E-10" name="Te124" />
+	<nuclide ao=" 1.0894E-09" name="Te125" />
+	<nuclide ao=" 2.9031E-09" name="Te126" />
+	<nuclide ao=" 4.8909E-09" name="Te128" />
+	<nuclide ao=" 5.2515E-09" name="Te130" />
+	<nuclide ao=" 1.4794E-08" name="Cs133" />
+	<nuclide ao=" 1.5177E-11" name="Ba130" />
+	<nuclide ao=" 1.4461E-11" name="Ba132" />
+	<nuclide ao=" 3.4606E-10" name="Ba134" />
+	<nuclide ao=" 9.4383E-10" name="Ba135" />
+	<nuclide ao=" 1.1245E-09" name="Ba136" />
+	<nuclide ao=" 1.6082E-09" name="Ba137" />
+	<nuclide ao=" 1.0266E-08" name="Ba138" />
+	<nuclide ao=" 1.2740E-11" name="La138" />
+	<nuclide ao=" 1.4142E-08" name="La139" />
+	<nuclide ao=" 2.5961E-11" name="Ce136" />
+	<nuclide ao=" 3.5222E-11" name="Ce138" />
+	<nuclide ao=" 1.2412E-08" name="Ce140" />
+	<nuclide ao=" 1.5596E-09" name="Ce142" />
+	<nuclide ao=" 1.3954E-08" name="Pr141" />
+	<nuclide ao=" 3.7077E-09" name="Nd142" />
+	<nuclide ao=" 1.6630E-09" name="Nd143" />
+	<nuclide ao=" 3.2443E-09" name="Nd144" />
+	<nuclide ao=" 1.1314E-09" name="Nd145" />
+	<nuclide ao=" 2.3446E-09" name="Nd146" />
+	<nuclide ao=" 7.7699E-10" name="Nd148" />
+	<nuclide ao=" 7.6336E-10" name="Nd150" />
+	<nuclide ao=" 4.0146E-10" name="Sm144" />
+	<nuclide ao=" 1.9602E-09" name="Sm147" />
+	<nuclide ao=" 1.4698E-09" name="Sm148" />
+	<nuclide ao=" 1.8072E-09" name="Sm149" />
+	<nuclide ao=" 9.6506E-10" name="Sm150" />
+	<nuclide ao=" 3.4980E-09" name="Sm152" />
+	<nuclide ao=" 2.9750E-09" name="Sm154" />
+	<nuclide ao=" 6.1860E-09" name="Eu151" />
+	<nuclide ao=" 6.7527E-09" name="Eu153" />
+	<nuclide ao=" 2.5008E-11" name="Gd152" />
+	<nuclide ao=" 2.7258E-10" name="Gd154" />
+	<nuclide ao=" 1.8506E-09" name="Gd155" />
+	<nuclide ao=" 2.5595E-09" name="Gd156" />
+	<nuclide ao=" 1.9568E-09" name="Gd157" />
+	<nuclide ao=" 3.1059E-09" name="Gd158" />
+	<nuclide ao=" 2.7333E-09" name="Gd160" />
+	<nuclide ao=" 1.2372E-08" name="Tb159" />
+	<nuclide ao=" 6.7759E-12" name="Dy156" />
+	<nuclide ao=" 1.1495E-11" name="Dy158" />
+	<nuclide ao=" 2.8180E-10" name="Dy160" />
+	<nuclide ao=" 2.2855E-09" name="Dy161" />
+	<nuclide ao=" 3.0824E-09" name="Dy162" />
+	<nuclide ao=" 3.0124E-09" name="Dy163" />
+	<nuclide ao=" 3.4194E-09" name="Dy164" />
+	<nuclide ao=" 1.1921E-08" name="Ho165" />
+	<nuclide ao=" 1.6340E-11" name="Er162" />
+	<nuclide ao=" 1.8821E-10" name="Er164" />
+	<nuclide ao=" 3.9385E-09" name="Er166" />
+	<nuclide ao=" 2.6884E-09" name="Er167" />
+	<nuclide ao=" 3.1714E-09" name="Er168" />
+	<nuclide ao=" 1.7527E-09" name="Er170" />
+	<nuclide ao=" 1.1639E-08" name="Tm169" />
+	<nuclide ao=" 1.0947E-08" name="Lu175" />
+	<nuclide ao=" 2.9105E-10" name="Lu176" />
+	<nuclide ao=" 2.7848E-09" name="Hf174" />
+	<nuclide ao=" 9.1550E-08" name="Hf176" />
+	<nuclide ao=" 3.2373E-07" name="Hf177" />
+	<nuclide ao=" 4.7481E-07" name="Hf178" />
+	<nuclide ao=" 2.3706E-07" name="Hf179" />
+	<nuclide ao=" 6.1057E-07" name="Hf180" />
+	<nuclide ao=" 1.3039E-12" name="Ta180" />
+	<nuclide ao=" 1.0865E-08" name="Ta181" />
+	<nuclide ao=" 1.2834E-11" name="W180" />
+	<nuclide ao=" 2.8342E-09" name="W182" />
+	<nuclide ao=" 1.5305E-09" name="W183" />
+	<nuclide ao=" 3.2770E-09" name="W184" />
+	<nuclide ao=" 3.0407E-09" name="W186" />
+	<nuclide ao=" 3.9492E-09" name="Re185" />
+	<nuclide ao=" 6.6101E-09" name="Re187" />
+	<nuclide ao=" 3.8155E-09" name="Ir191" />
+	<nuclide ao=" 6.4137E-09" name="Ir193" />
+	<nuclide ao=" 9.9825E-09" name="Au197" />
+	<nuclide ao=" 1.4703E-11" name="Hg196" />
+	<nuclide ao=" 9.7728E-10" name="Hg198" />
+	<nuclide ao=" 1.6536E-09" name="Hg199" />
+	<nuclide ao=" 2.2643E-09" name="Hg200" />
+	<nuclide ao=" 1.2919E-09" name="Hg201" />
+	<nuclide ao=" 2.9269E-09" name="Hg202" />
+	<nuclide ao=" 6.7341E-10" name="Hg204" />
+	<nuclide ao=" 2.8399E-09" name="Tl203" />
+	<nuclide ao=" 6.7803E-09" name="Tl205" />
+	<nuclide ao=" 1.5942E-09" name="Pb204" />
+	<nuclide ao=" 2.7444E-08" name="Pb206" />
+	<nuclide ao=" 2.5166E-08" name="Pb207" />
+	<nuclide ao=" 5.9670E-08" name="Pb208" />
+	<nuclide ao=" 9.4086E-09" name="Bi209" />
+	<nuclide ao=" 8.4737E-09" name="Th232" />
+	<nuclide ao=" 4.4606E-13" name="U234" />
+	<nuclide ao=" 5.9508E-11" name="U235" />
+	<nuclide ao=" 8.2005E-09" name="U238" />
+	<nuclide ao=" 2.2022E-02" name="Zr90" />
+	<nuclide ao=" 4.8024E-03" name="Zr91" />
+	<nuclide ao=" 7.3405E-03" name="Zr92" />
+	<nuclide ao=" 7.4390E-03" name="Zr94" />
+	<nuclide ao=" 1.1985E-03" name="Zr96" />
+	<sab name="c_Al27" />
+	<sab name="c_Fe56" />
+</material>
+
+<material id="20008" name="aluminum (MCNP)">
+	<density units="atom/b-cm" value="5.9803E-02" />
+	<nuclide ao=" 2.1238E-04" name="Si28" />
+	<nuclide ao=" 1.0789E-05" name="Si29" />
+	<nuclide ao=" 7.1205E-06" name="Si30" />
+	<nuclide ao=" 2.9616E-06" name="Fe54" />
+	<nuclide ao=" 4.6491E-05" name="Fe56" />
+	<nuclide ao=" 1.0737E-06" name="Fe57" />
+	<nuclide ao=" 1.4289E-07" name="Fe58" />
+	<nuclide ao=" 8.7976E-06" name="Cu63" />
+	<nuclide ao=" 3.9249E-06" name="Cu65" />
+	<nuclide ao=" 1.4716E-05" name="Mn55" />
+	<nuclide ao=" 3.5471E-04" name="Mg24" />
+	<nuclide ao=" 4.4906E-05" name="Mg25" />
+	<nuclide ao=" 4.9441E-05" name="Mg26" />
+	<nuclide ao=" 6.7559E-07" name="Cr50" />
+	<nuclide ao=" 1.3028E-05" name="Cr52" />
+	<nuclide ao=" 1.4773E-06" name="Cr53" />
+	<nuclide ao=" 3.6772E-07" name="Cr54" />
+	<nuclide ao=" 5.9660E-06" name="Zn64" />
+	<nuclide ao=" 3.4578E-06" name="Zn66" />
+	<nuclide ao=" 5.0701E-07" name="Zn67" />
+	<nuclide ao=" 2.3514E-06" name="Zn68" />
+	<nuclide ao=" 7.7993E-08" name="Zn70" />
+	<nuclide ao=" 1.3649E-06" name="Ti46" />
+	<nuclide ao=" 1.2309E-06" name="Ti47" />
+	<nuclide ao=" 1.2196E-05" name="Ti48" />
+	<nuclide ao=" 8.9504E-07" name="Ti49" />
+	<nuclide ao=" 8.5699E-07" name="Ti50" />
+	<nuclide ao=" 6.8592E-06" name="Co59" />
+	<nuclide ao=" 4.6886E-06" name="Ni58" />
+	<nuclide ao=" 1.8060E-06" name="Ni60" />
+	<nuclide ao=" 7.8507E-08" name="Ni61" />
+	<nuclide ao=" 2.5032E-07" name="Ni62" />
+	<nuclide ao=" 6.3748E-08" name="Ni64" />
+	<nuclide ao=" 3.3031E-08" name="Sn112" />
+	<nuclide ao=" 2.2474E-08" name="Sn114" />
+	<nuclide ao=" 1.1578E-08" name="Sn115" />
+	<nuclide ao=" 4.9512E-07" name="Sn116" />
+	<nuclide ao=" 2.6152E-07" name="Sn117" />
+	<nuclide ao=" 8.2474E-07" name="Sn118" />
+	<nuclide ao=" 2.9251E-07" name="Sn119" />
+	<nuclide ao=" 1.1094E-06" name="Sn120" />
+	<nuclide ao=" 1.5766E-07" name="Sn122" />
+	<nuclide ao=" 1.9716E-07" name="Sn124" />
+	<nuclide ao=" 5.8984E-02" name="Al27" />
+	<sab name="c_Al27" />
+	<sab name="c_Fe56" />
+</material>
+
+<material id="20009" name="carbonsteel (MCNP)">
+	<density units="atom/b-cm" value="8.5418E-02" />
+	<nuclide ao=" 8.6425E-04" name="C0" />
+	<nuclide ao=" 7.7296E-04" name="Mn55" />
+	<nuclide ao=" 3.0467E-05" name="P31" />
+	<nuclide ao=" 3.4944E-05" name="S32" />
+	<nuclide ao=" 2.7590E-07" name="S33" />
+	<nuclide ao=" 1.5635E-06" name="S34" />
+	<nuclide ao=" 3.6787E-09" name="S36" />
+	<nuclide ao=" 5.1344E-05" name="Cu63" />
+	<nuclide ao=" 2.2906E-05" name="Cu65" />
+	<nuclide ao=" 5.4726E-05" name="Ni58" />
+	<nuclide ao=" 2.1081E-05" name="Ni60" />
+	<nuclide ao=" 9.1636E-07" name="Ni61" />
+	<nuclide ao=" 2.9217E-06" name="Ni62" />
+	<nuclide ao=" 7.4408E-07" name="Ni64" />
+	<nuclide ao=" 2.9571E-06" name="Cr50" />
+	<nuclide ao=" 5.7025E-05" name="Cr52" />
+	<nuclide ao=" 6.4662E-06" name="Cr53" />
+	<nuclide ao=" 1.6096E-06" name="Cr54" />
+	<nuclide ao=" 2.1792E-06" name="Mo92" />
+	<nuclide ao=" 1.3618E-06" name="Mo94" />
+	<nuclide ao=" 2.3459E-06" name="Mo95" />
+	<nuclide ao=" 2.4610E-06" name="Mo96" />
+	<nuclide ao=" 1.4105E-06" name="Mo97" />
+	<nuclide ao=" 3.5690E-06" name="Mo98" />
+	<nuclide ao=" 1.4267E-06" name="Mo100" />
+	<nuclide ao=" 9.2622E-09" name="V50" />
+	<nuclide ao=" 3.6956E-06" name="V51" />
+	<nuclide ao=" 2.0314E-06" name="Nb93" />
+	<nuclide ao=" 1.0165E-07" name="Ti46" />
+	<nuclide ao=" 9.1671E-08" name="Ti47" />
+	<nuclide ao=" 9.0834E-07" name="Ti48" />
+	<nuclide ao=" 6.6659E-08" name="Ti49" />
+	<nuclide ao=" 6.3825E-08" name="Ti50" />
+	<nuclide ao=" 4.2607E-04" name="Si28" />
+	<nuclide ao=" 2.1644E-05" name="Si29" />
+	<nuclide ao=" 1.4285E-05" name="Si30" />
+	<nuclide ao=" 4.8518E-03" name="Fe54" />
+	<nuclide ao=" 7.6163E-02" name="Fe56" />
+	<nuclide ao=" 1.7589E-03" name="Fe57" />
+	<nuclide ao=" 2.3408E-04" name="Fe58" />
+	<sab name="c_Fe56" />
+</material>
+
+<material id="20010" name="Concrete (MCNP)">
+	<density units="atom/b-cm" value="9.6208E-02" />
+	<nuclide ao=" 2.5914E-03" name="Ca40" />
+	<nuclide ao=" 1.7296E-05" name="Ca42" />
+	<nuclide ao=" 3.6088E-06" name="Ca43" />
+	<nuclide ao=" 5.5763E-05" name="Ca44" />
+	<nuclide ao=" 1.0693E-07" name="Ca46" />
+	<nuclide ao=" 4.9989E-06" name="Ca48" />
+	<nuclide ao=" 1.5236E-03" name="Si28" />
+	<nuclide ao=" 7.7399E-05" name="Si29" />
+	<nuclide ao=" 5.1082E-05" name="Si30" />
+	<nuclide ao=" 1.1921E-03" name="Al27" />
+	<nuclide ao=" 1.0360E-03" name="Fe54" />
+	<nuclide ao=" 1.6262E-02" name="Fe56" />
+	<nuclide ao=" 3.7557E-04" name="Fe57" />
+	<nuclide ao=" 4.9981E-05" name="Fe58" />
+	<nuclide ao=" 9.5284E-04" name="Mg24" />
+	<nuclide ao=" 1.2063E-04" name="Mg25" />
+	<nuclide ao=" 1.3281E-04" name="Mg26" />
+	<nuclide ao=" 4.8069E-05" name="S32" />
+	<nuclide ao=" 3.7953E-07" name="S33" />
+	<nuclide ao=" 2.1507E-06" name="S34" />
+	<nuclide ao=" 5.0604E-09" name="S36" />
+	<nuclide ao=" 2.0056E-05" name="K39" />
+	<nuclide ao=" 2.5162E-09" name="K40" />
+	<nuclide ao=" 1.4474E-06" name="K41" />
+	<nuclide ao=" 3.2685E-05" name="Na23" />
+	<nuclide ao=" 2.8557E-05" name="Mn55" />
+	<nuclide ao=" 4.0548E-08" name="V50" />
+	<nuclide ao=" 1.6178E-05" name="V51" />
+	<nuclide ao=" 1.1582E-07" name="Cr50" />
+	<nuclide ao=" 2.2335E-06" name="Cr52" />
+	<nuclide ao=" 2.5326E-07" name="Cr53" />
+	<nuclide ao=" 6.3043E-08" name="Cr54" />
+	<nuclide ao=" 5.9935E-05" name="Ti46" />
+	<nuclide ao=" 5.4050E-05" name="Ti47" />
+	<nuclide ao=" 5.3556E-04" name="Ti48" />
+	<nuclide ao=" 3.9303E-05" name="Ti49" />
+	<nuclide ao=" 3.7632E-05" name="Ti50" />
+	<nuclide ao=" 4.7228E-02" name="O16" />
+	<nuclide ao=" 1.7953E-05" name="O17" />
+	<nuclide ao=" 2.3634E-02" name="H1" />
+	<nuclide ao=" 2.7182E-06" name="H2" />
+	<sab name="c_H_in_H2O" />
+	<sab name="c_D_in_D2O" />
+</material>
+
+<material id="20012" name="graphite reflector - CP2 (MCNP)">
+	<density units="atom/b-cm" value="8.3734E-02" />
+	<nuclide ao=" 7.3682E-09" name="Li6" />
+	<nuclide ao=" 8.9709E-08" name="Li7" />
+	<nuclide ao=" 2.7898E-09" name="Be9" />
+	<nuclide ao=" 6.4792E-09" name="B10" />
+	<nuclide ao=" 2.6079E-08" name="B11" />
+	<nuclide ao=" 2.6468E-09" name="F19" />
+	<nuclide ao=" 1.0936E-09" name="Na23" />
+	<nuclide ao=" 1.9611E-09" name="Mg24" />
+	<nuclide ao=" 2.4827E-10" name="Mg25" />
+	<nuclide ao=" 2.7334E-10" name="Mg26" />
+	<nuclide ao=" 8.2001E-08" name="Al27" />
+	<nuclide ao=" 2.3116E-06" name="Si28" />
+	<nuclide ao=" 1.1743E-07" name="Si29" />
+	<nuclide ao=" 7.7503E-08" name="Si30" />
+	<nuclide ao=" 2.1105E-08" name="P31" />
+	<nuclide ao=" 1.3407E-06" name="S32" />
+	<nuclide ao=" 1.0585E-08" name="S33" />
+	<nuclide ao=" 5.9984E-08" name="S34" />
+	<nuclide ao=" 1.4114E-10" name="S36" />
+	<nuclide ao=" 9.6708E-09" name="Cl35" />
+	<nuclide ao=" 3.0943E-09" name="Cl37" />
+	<nuclide ao=" 1.1994E-09" name="K39" />
+	<nuclide ao=" 1.5047E-13" name="K40" />
+	<nuclide ao=" 8.6557E-11" name="K41" />
+	<nuclide ao=" 3.8921E-06" name="Ca40" />
+	<nuclide ao=" 2.5977E-08" name="Ca42" />
+	<nuclide ao=" 5.4202E-09" name="Ca43" />
+	<nuclide ao=" 8.3752E-08" name="Ca44" />
+	<nuclide ao=" 1.6060E-10" name="Ca46" />
+	<nuclide ao=" 7.5079E-09" name="Ca48" />
+	<nuclide ao=" 1.1185E-10" name="Sc45" />
+	<nuclide ao=" 2.0800E-08" name="Ti46" />
+	<nuclide ao=" 1.8758E-08" name="Ti47" />
+	<nuclide ao=" 1.8586E-07" name="Ti48" />
+	<nuclide ao=" 1.3640E-08" name="Ti49" />
+	<nuclide ao=" 1.3060E-08" name="Ti50" />
+	<nuclide ao=" 5.9226E-09" name="V50" />
+	<nuclide ao=" 2.3631E-06" name="V51" />
+	<nuclide ao=" 2.1010E-10" name="Cr50" />
+	<nuclide ao=" 4.0515E-09" name="Cr52" />
+	<nuclide ao=" 4.5941E-10" name="Cr53" />
+	<nuclide ao=" 1.1436E-10" name="Cr54" />
+	<nuclide ao=" 3.6612E-10" name="Mn55" />
+	<nuclide ao=" 6.5261E-09" name="Fe54" />
+	<nuclide ao=" 1.0245E-07" name="Fe56" />
+	<nuclide ao=" 2.3659E-09" name="Fe57" />
+	<nuclide ao=" 3.1486E-10" name="Fe58" />
+	<nuclide ao=" 8.5325E-11" name="Co59" />
+	<nuclide ao=" 1.6331E-08" name="Ni58" />
+	<nuclide ao=" 6.2905E-09" name="Ni60" />
+	<nuclide ao=" 2.7344E-10" name="Ni61" />
+	<nuclide ao=" 8.7186E-10" name="Ni62" />
+	<nuclide ao=" 2.2204E-10" name="Ni64" />
+	<nuclide ao=" 1.6416E-09" name="Cu63" />
+	<nuclide ao=" 7.3236E-10" name="Cu65" />
+	<nuclide ao=" 1.8554E-10" name="Zn64" />
+	<nuclide ao=" 1.0753E-10" name="Zn66" />
+	<nuclide ao=" 1.5767E-11" name="Zn67" />
+	<nuclide ao=" 7.3125E-11" name="Zn68" />
+	<nuclide ao=" 2.4255E-12" name="Zn70" />
+	<nuclide ao=" 4.3350E-11" name="Ga69" />
+	<nuclide ao=" 2.8770E-11" name="Ga71" />
+	<nuclide ao=" 7.0540E-11" name="Ge70" />
+	<nuclide ao=" 9.4526E-11" name="Ge72" />
+	<nuclide ao=" 2.6859E-11" name="Ge73" />
+	<nuclide ao=" 1.2710E-10" name="Ge74" />
+	<nuclide ao=" 2.7101E-11" name="Ge76" />
+	<nuclide ao=" 3.3558E-10" name="As75" />
+	<nuclide ao=" 2.8339E-12" name="Se74" />
+	<nuclide ao=" 2.9836E-11" name="Se76" />
+	<nuclide ao=" 2.4295E-11" name="Se77" />
+	<nuclide ao=" 7.5688E-11" name="Se78" />
+	<nuclide ao=" 1.5797E-10" name="Se80" />
+	<nuclide ao=" 2.7798E-11" name="Se82" />
+	<nuclide ao=" 3.1900E-10" name="Br79" />
+	<nuclide ao=" 3.1031E-10" name="Br81" />
+	<nuclide ao=" 2.1230E-10" name="Rb85" />
+	<nuclide ao=" 8.1868E-11" name="Rb87" />
+	<nuclide ao=" 7.7131E-11" name="Sr84" />
+	<nuclide ao=" 1.3581E-09" name="Sr86" />
+	<nuclide ao=" 9.6414E-10" name="Sr87" />
+	<nuclide ao=" 1.1374E-08" name="Sr88" />
+	<nuclide ao=" 5.6559E-10" name="Y89" />
+	<nuclide ao=" 1.9285E-09" name="Zr90" />
+	<nuclide ao=" 4.2056E-10" name="Zr91" />
+	<nuclide ao=" 6.4283E-10" name="Zr92" />
+	<nuclide ao=" 6.5145E-10" name="Zr94" />
+	<nuclide ao=" 1.0495E-10" name="Zr96" />
+	<nuclide ao=" 2.7062E-10" name="Nb93" />
+	<nuclide ao=" 3.8707E-11" name="Mo92" />
+	<nuclide ao=" 2.4188E-11" name="Mo94" />
+	<nuclide ao=" 4.1668E-11" name="Mo95" />
+	<nuclide ao=" 4.3712E-11" name="Mo96" />
+	<nuclide ao=" 2.5053E-11" name="Mo97" />
+	<nuclide ao=" 6.3393E-11" name="Mo98" />
+	<nuclide ao=" 2.5341E-11" name="Mo100" />
+	<nuclide ao=" 1.3781E-11" name="Ru96" />
+	<nuclide ao=" 4.6518E-12" name="Ru98" />
+	<nuclide ao=" 3.1742E-11" name="Ru99" />
+	<nuclide ao=" 3.1344E-11" name="Ru100" />
+	<nuclide ao=" 4.2439E-11" name="Ru101" />
+	<nuclide ao=" 7.8484E-11" name="Ru102" />
+	<nuclide ao=" 4.6319E-11" name="Ru104" />
+	<nuclide ao=" 4.8865E-11" name="Rh103" />
+	<nuclide ao=" 2.4098E-12" name="Pd102" />
+	<nuclide ao=" 2.6319E-11" name="Pd104" />
+	<nuclide ao=" 5.2756E-11" name="Pd105" />
+	<nuclide ao=" 6.4569E-11" name="Pd106" />
+	<nuclide ao=" 6.2513E-11" name="Pd108" />
+	<nuclide ao=" 2.7689E-11" name="Pd110" />
+	<nuclide ao=" 1.2083E-10" name="Ag107" />
+	<nuclide ao=" 1.1226E-10" name="Ag109" />
+	<nuclide ao=" 2.7958E-12" name="Cd106" />
+	<nuclide ao=" 1.9906E-12" name="Cd108" />
+	<nuclide ao=" 2.7936E-11" name="Cd110" />
+	<nuclide ao=" 2.8629E-11" name="Cd111" />
+	<nuclide ao=" 5.3970E-11" name="Cd112" />
+	<nuclide ao=" 2.7332E-11" name="Cd113" />
+	<nuclide ao=" 6.4259E-11" name="Cd114" />
+	<nuclide ao=" 1.6752E-11" name="Cd116" />
+	<nuclide ao=" 9.3940E-12" name="In113" />
+	<nuclide ao=" 2.0958E-10" name="In115" />
+	<nuclide ao=" 2.0544E-12" name="Sn112" />
+	<nuclide ao=" 1.3979E-12" name="Sn114" />
+	<nuclide ao=" 7.2011E-13" name="Sn115" />
+	<nuclide ao=" 3.0795E-11" name="Sn116" />
+	<nuclide ao=" 1.6266E-11" name="Sn117" />
+	<nuclide ao=" 5.1297E-11" name="Sn118" />
+	<nuclide ao=" 1.8193E-11" name="Sn119" />
+	<nuclide ao=" 6.9003E-11" name="Sn120" />
+	<nuclide ao=" 9.8061E-12" name="Sn122" />
+	<nuclide ao=" 1.2263E-11" name="Sn124" />
+	<nuclide ao=" 1.1813E-10" name="Sb121" />
+	<nuclide ao=" 8.8357E-11" name="Sb123" />
+	<nuclide ao=" 1.7734E-13" name="Te120" />
+	<nuclide ao=" 5.0245E-12" name="Te122" />
+	<nuclide ao=" 1.7537E-12" name="Te123" />
+	<nuclide ao=" 9.3397E-12" name="Te124" />
+	<nuclide ao=" 1.3931E-11" name="Te125" />
+	<nuclide ao=" 3.7122E-11" name="Te126" />
+	<nuclide ao=" 6.2540E-11" name="Te128" />
+	<nuclide ao=" 6.7151E-11" name="Te130" />
+	<nuclide ao=" 3.9624E-11" name="I127" />
+	<nuclide ao=" 1.8917E-10" name="Cs133" />
+	<nuclide ao=" 1.9407E-13" name="Ba130" />
+	<nuclide ao=" 1.8491E-13" name="Ba132" />
+	<nuclide ao=" 4.4251E-12" name="Ba134" />
+	<nuclide ao=" 1.2069E-11" name="Ba135" />
+	<nuclide ao=" 1.4379E-11" name="Ba136" />
+	<nuclide ao=" 2.0564E-11" name="Ba137" />
+	<nuclide ao=" 1.3127E-10" name="Ba138" />
+	<nuclide ao=" 1.6290E-13" name="La138" />
+	<nuclide ao=" 1.8084E-10" name="La139" />
+	<nuclide ao=" 3.3196E-13" name="Ce136" />
+	<nuclide ao=" 4.5039E-13" name="Ce138" />
+	<nuclide ao=" 1.5871E-10" name="Ce140" />
+	<nuclide ao=" 1.9943E-11" name="Ce142" />
+	<nuclide ao=" 1.7843E-10" name="Pr141" />
+	<nuclide ao=" 4.7411E-11" name="Nd142" />
+	<nuclide ao=" 2.1265E-11" name="Nd143" />
+	<nuclide ao=" 4.1485E-11" name="Nd144" />
+	<nuclide ao=" 1.4467E-11" name="Nd145" />
+	<nuclide ao=" 2.9981E-11" name="Nd146" />
+	<nuclide ao=" 9.9355E-12" name="Nd148" />
+	<nuclide ao=" 9.7611E-12" name="Nd150" />
+	<nuclide ao=" 1.0267E-12" name="Sm144" />
+	<nuclide ao=" 5.0131E-12" name="Sm147" />
+	<nuclide ao=" 3.7590E-12" name="Sm148" />
+	<nuclide ao=" 4.6218E-12" name="Sm149" />
+	<nuclide ao=" 2.4681E-12" name="Sm150" />
+	<nuclide ao=" 8.9459E-12" name="Sm152" />
+	<nuclide ao=" 7.6082E-12" name="Sm154" />
+	<nuclide ao=" 1.5820E-11" name="Eu151" />
+	<nuclide ao=" 1.7270E-11" name="Eu153" />
+	<nuclide ao=" 6.3955E-14" name="Gd152" />
+	<nuclide ao=" 6.9711E-13" name="Gd154" />
+	<nuclide ao=" 4.7327E-12" name="Gd155" />
+	<nuclide ao=" 6.5458E-12" name="Gd156" />
+	<nuclide ao=" 5.0045E-12" name="Gd157" />
+	<nuclide ao=" 7.9432E-12" name="Gd158" />
+	<nuclide ao=" 6.9903E-12" name="Gd160" />
+	<nuclide ao=" 3.1640E-11" name="Tb159" />
+	<nuclide ao=" 1.7329E-14" name="Dy156" />
+	<nuclide ao=" 2.9397E-14" name="Dy158" />
+	<nuclide ao=" 7.2069E-13" name="Dy160" />
+	<nuclide ao=" 5.8451E-12" name="Dy161" />
+	<nuclide ao=" 7.8831E-12" name="Dy162" />
+	<nuclide ao=" 7.7039E-12" name="Dy163" />
+	<nuclide ao=" 8.7449E-12" name="Dy164" />
+	<nuclide ao=" 3.0488E-11" name="Ho165" />
+	<nuclide ao=" 4.1789E-14" name="Er162" />
+	<nuclide ao=" 4.8132E-13" name="Er164" />
+	<nuclide ao=" 1.0072E-11" name="Er166" />
+	<nuclide ao=" 6.8753E-12" name="Er167" />
+	<nuclide ao=" 8.1106E-12" name="Er168" />
+	<nuclide ao=" 4.4825E-12" name="Er170" />
+	<nuclide ao=" 2.9766E-11" name="Tm169" />
+	<nuclide ao=" 2.7995E-11" name="Lu175" />
+	<nuclide ao=" 7.4435E-13" name="Lu176" />
+	<nuclide ao=" 4.5075E-14" name="Hf174" />
+	<nuclide ao=" 1.4819E-12" name="Hf176" />
+	<nuclide ao=" 5.2400E-12" name="Hf177" />
+	<nuclide ao=" 7.6854E-12" name="Hf178" />
+	<nuclide ao=" 3.8371E-12" name="Hf179" />
+	<nuclide ao=" 9.8828E-12" name="Hf180" />
+	<nuclide ao=" 3.3347E-11" name="Ta180" />
+	<nuclide ao=" 2.7786E-07" name="Ta181" />
+	<nuclide ao=" 1.6411E-13" name="W180" />
+	<nuclide ao=" 3.6242E-11" name="W182" />
+	<nuclide ao=" 1.9571E-11" name="W183" />
+	<nuclide ao=" 4.1904E-11" name="W184" />
+	<nuclide ao=" 3.8881E-11" name="W186" />
+	<nuclide ao=" 1.0100E-11" name="Re185" />
+	<nuclide ao=" 1.6905E-11" name="Re187" />
+	<nuclide ao=" 9.7578E-12" name="Ir191" />
+	<nuclide ao=" 1.6403E-11" name="Ir193" />
+	<nuclide ao=" 2.5529E-10" name="Au197" />
+	<nuclide ao=" 3.7602E-13" name="Hg196" />
+	<nuclide ao=" 2.4993E-11" name="Hg198" />
+	<nuclide ao=" 4.2290E-11" name="Hg199" />
+	<nuclide ao=" 5.7908E-11" name="Hg200" />
+	<nuclide ao=" 3.3040E-11" name="Hg201" />
+	<nuclide ao=" 7.4854E-11" name="Hg202" />
+	<nuclide ao=" 1.7222E-11" name="Hg204" />
+	<nuclide ao=" 3.6314E-11" name="Tl203" />
+	<nuclide ao=" 8.6701E-11" name="Tl205" />
+	<nuclide ao=" 1.6988E-12" name="Pb204" />
+	<nuclide ao=" 2.9244E-11" name="Pb206" />
+	<nuclide ao=" 2.6817E-11" name="Pb207" />
+	<nuclide ao=" 6.3584E-11" name="Pb208" />
+	<nuclide ao=" 1.2031E-10" name="Bi209" />
+	<nuclide ao=" 1.0835E-10" name="Th232" />
+	<nuclide ao=" 5.7039E-15" name="U234" />
+	<nuclide ao=" 7.6094E-13" name="U235" />
+	<nuclide ao=" 1.0486E-10" name="U238" />
+	<nuclide ao=" 2.2327E-05" name="H1" />
+	<nuclide ao=" 2.5679E-09" name="H2" />
+	<nuclide ao=" 8.3677E-02" name="C0" />
+	<!--nuclide ao=" 1.2576E-07" name="H1" /-->
+	<!--nuclide ao=" 1.4464E-11" name="H2" /-->
+	<nuclide ao=" 9.7812E-06" name="N14" />
+	<nuclide ao=" 3.5734E-08" name="N15" />
+	<nuclide ao=" 1.3861E-05" name="O16" />
+	<nuclide ao=" 5.2690E-09" name="O17" />
+	<nuclide ao=" 1.9757E-10" name="Ar36" />
+	<nuclide ao=" 3.7106E-11" name="Ar38" />
+	<nuclide ao=" 5.8478E-08" name="Ar40" />
+	<!--nuclide ao=" 2.3994E-09" name="C0" /-->
+	<nuclide ao=" 4.4139E-17" name="He3" />
+	<nuclide ao=" 3.2939E-11" name="He4" />
+	<nuclide ao=" 2.5440E-14" name="Kr78" />
+	<nuclide ao=" 1.6382E-13" name="Kr80" />
+	<nuclide ao=" 8.3078E-13" name="Kr82" />
+	<nuclide ao=" 8.2412E-13" name="Kr83" />
+	<nuclide ao=" 4.0838E-12" name="Kr84" />
+	<nuclide ao=" 1.2383E-12" name="Kr86" />
+	<sab name="c_Graphite" />
+	<sab name="c_Al27" />
+	<sab name="c_Fe56" />
+	<sab name="c_H_in_H2O" />
+	<sab name="c_D_in_D2O" />
+</material>
+
+<material id="90000" name="fuel 0.211%, 7.53 ppm - Replace H-1 H-2 with C0">
+	<density units="g/cc" value="1.73" />
+	<nuclide ao="6.39251725554e-09" name="O17" />
+	<nuclide ao="1.68160213131e-05" name="O16" />
+	<nuclide ao="0.0865102912" name="C0" />
+	<nuclide ao="5.81110e-07" name="B11" />
+	<nuclide ao="8.5473020281e-08" name="U234" />
+	<!--nuclide ao="0.001002464693" name="H1" /-->
+	<!--nuclide ao="1.15296698815e-07" name="H2" /-->
+	<nuclide ao="8.72023283838e-06" name="U235" />
+	<nuclide ao="4.99859462489e-07" name="U238" />
+	<nuclide ao="4.57034549e-06" name="Fe56" />
+	<nuclide ao="1.05549208681e-07" name="Fe57" />
+	<nuclide ao="2.91144466607e-07" name="Fe54" />
+	<nuclide ao="3.98590948942e-08" name="U236" />
+	<nuclide ao="1.44371e-07" name="B10" />
+	<nuclide ao="1.4046662033e-08" name="Fe58" />
+	<sab name="c_Graphite" fraction="0.59"/>
+	<sab name="c_O_in_UO2" />
+	<sab name="c_U_in_UO2" />
+	<sab name="c_Fe56" />
+</material>
+
+</materials>
