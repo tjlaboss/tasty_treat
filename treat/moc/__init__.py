@@ -3,4 +3,5 @@
 # Sub-module for TREAT method of characteristics code
 
 from . import constants
+from . import cmm
 
