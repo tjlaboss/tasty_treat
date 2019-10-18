@@ -4,7 +4,6 @@
 
 from .common import *
 
-
 # Radial parameters
 #
 # Standard fuel element
@@ -41,4 +40,11 @@ al_graph_or = plug_or
 al_graph_chamf_len = plug_chamf_len
 al_clad_thick   = plug_clad_thick    # Thickness of the thicker aluminum clad around the reflector region
 
+
+
+
+# not sure about these yet
+mainCladSurfHW  = fuel_surf_hw + TANPI8*(clad_or - fuel_or) #
+thinCladSurfInnerHW  = fuel_surf_hw + TANPI8*(clad_ir - fuel_or) #
+thinCladChamfIW = fuel_chamf_len + 2.0*TANPI8*(clad_ir - fuel_or) #
 

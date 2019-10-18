@@ -1,0 +1,41 @@
+#!/bin/sh
+###############################################################################
+# Specify nodes, processors per node and maximum running time
+###############################################################################
+
+#PBS -l select=1:ncpus=36:mpiprocs=1
+#PBS -l walltime={timestr}
+#PBS -P {queue}
+
+###############################################################################
+# Enter directory and set PATH
+###############################################################################
+
+cd $PBS_O_WORKDIR
+PATH=$PBS_O_PATH
+
+###############################################################################
+# Run OpenMOC
+###############################################################################
+
+MV2_ENABLE_AFFINITY=0
+export MV2_ENABLE_AFFINITY
+
+#PBS -k eo
+OMP_NUM_THREADS=36
+export OMP_NUM_THREADS
+
+SOLVER={solver}
+GEN={geneity}
+NGROUPS={ngroups}
+NAZIM={nazim}
+DAZIM={dazim}
+CMFDMESH={cmfdmesh}
+DIVMESH={divmesh}
+FUELMESH={fuelmesh}
+REFLMESH={reflmesh}
+CRDMESH={crdmesh}
+SUFFIX={suffix}
+
+SCRIPT={script_file}
+python $SCRIPT -j $OMP_NUM_THREADS --geneous $GEN --solver $SOLVER --ngroups $NGROUPS --fuelmesh $FUELMESH --reflmesh $REFLMESH --crdmesh $CRDMESH --cmfdmesh $CMFDMESH --suffix $SUFFIX --nazim $NAZIM --dazim $DAZIM

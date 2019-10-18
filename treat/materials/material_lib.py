@@ -115,4 +115,3 @@ class MaterialLib(object):
 			if mat not in treatmats:
 				treatmats.append(mat)
 		return treatmats
-

@@ -1,7 +1,7 @@
-# Serpent Materials
+# NRL Materials
 #
-# Material definitions for TREAT taken from the Idaho National Laboratory (INL)
-# Serpent II models.
+# Material definitions for TREAT taken from the MIT Nuclear Reactor Lab (NRL)
+# MCNP and OpenMC models (credit: Kaichao Sun)
 
 import os
 import xml.etree.ElementTree as ET
@@ -13,8 +13,8 @@ _DIRNAME = os.path.dirname(os.path.realpath(__file__))
 _FILENAME = _DIRNAME + "/nrl_materials.xml"
 _KEYS = {
 	20000 : "air",
-	10002 : "b4c rod",
-	10003 : "b4c rod old",
+	10002 : "b4c rod old",
+	10003 : "b4c rod",
 	20005 : "zirc",
 	20008 : "aluminum",
 	20009 : "steel",
